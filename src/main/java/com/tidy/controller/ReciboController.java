@@ -1,5 +1,4 @@
 package com.tidy.controller;
-
 import com.tidy.dto.ReciboRequest;
 import com.tidy.dto.ReciboResponse;
 import com.tidy.service.ReciboService;
