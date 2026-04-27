@@ -6,7 +6,7 @@ import com.tidy.dto.RegistroRequest;
 import com.tidy.service.AuthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+// prueba
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
