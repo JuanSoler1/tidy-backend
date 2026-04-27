@@ -9,12 +9,8 @@ import java.util.Optional;
 
 @Repository
 public interface ReciboRepository extends JpaRepository<Recibo, Long> {
-
     List<Recibo> findByUsuarioId(Long usuarioId);
-
     List<Recibo> findByUsuarioIdAndMesAndAnio(Long usuarioId, Integer mes, Integer anio);
-
     List<Recibo> findByUsuarioIdAndEstado(Long usuarioId, EstadoRecibo estado);
-
     Optional<Recibo> findByIdAndUsuarioId(Long id, Long usuarioId);
 }

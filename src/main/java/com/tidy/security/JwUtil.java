@@ -3,7 +3,6 @@ package com.tidy.security;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.stereotype.Component;
-
 import java.security.Key;
 import java.util.Date;
 
@@ -11,7 +10,7 @@ import java.util.Date;
 public class JwUtil {
 
     private final String SECRET = "TidySecretKey2026JaverianaDesarrolloSoftware";
-    private final long EXPIRATION = 86400000; // 24 horas en milisegundos
+    private final long EXPIRATION = 86400000;
 
     private Key getSigningKey() {
         return Keys.hmacShaKeyFor(SECRET.getBytes());

@@ -8,7 +8,6 @@ import com.tidy.model.Usuario;
 import com.tidy.repository.ReciboRepository;
 import com.tidy.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
