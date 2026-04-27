@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+tidy-frontend/node_modules/
+tidy-frontend/.angular/
